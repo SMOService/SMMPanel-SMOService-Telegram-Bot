@@ -256,17 +256,17 @@ tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pyte
 
 [[package]]
 name = "babel"
-version = "2.14.0"
+version = "2.19.0"
 description = "Internationalization utilities"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.9"
 files = [
-    {file = "Babel-2.14.0-py3-none-any.whl", hash = "sha256:efb1a25b7118e67ce3a259bed20545c29cb68be8ad2c784c83689981b7a57287"},
-    {file = "Babel-2.14.0.tar.gz", hash = "sha256:6919867db036398ba21eb5c7a0f6b28ab8cbc3ae7a73a44ebe34ae74a4e7d363"},
+    {file = "babel-2.19.0-py3-none-any.whl", hash = "sha256:6d49734aed1d595b2c065d012174df8c83964692f26fc461702281634dd7555b"},
+    {file = "babel-2.19.0.tar.gz", hash = "sha256:fddd2cbbbac7c299af3c2880be23609c331bd94f0912baca6cb0abfe054dfc27"},
 ]
 
 [package.extras]
-dev = ["freezegun (>=1.0,<2.0)", "pytest (>=6.0)", "pytest-cov"]
+dev = ["freezegun (>=1.0,<2.0)", "jinja2 (>=3.0)", "pytest (>=6.0)", "pytest-cov", "pytz", "setuptools", "tzdata"]
 
 [[package]]
 name = "certifi"
